@@ -1,26 +1,22 @@
-# SAP-samples/repository-template
-This default template for SAP Samples repositories includes files for README, LICENSE, and REUSE.toml. All repositories on github.com/SAP-samples will be created based on this template.
+# SALT-KG: A Benchmark for Semantics-Aware Learning on Enterprise Tables
 
-# Containing Files
-
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The REUSE.toml file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the REUSE.toml in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
-# [Title]
-<!-- Please include descriptive title -->
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://www.python.org/)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-blue)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![arXiv](https://img.shields.io/badge/arXiv-2501.03413-b31b1b.svg)](https://arxiv.org/abs/2501.03413)
+[![REUSE Compliance](https://img.shields.io/badge/REUSE-compliant-brightgreen)](https://reuse.software)
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
 -->
 
 ## Description
-<!-- Please include SEO-friendly description -->
+
+This repository contains the dataset from our paper SALT-KG: A Benchmark for Semantics-Aware Learning on Enterprise Tables, presented at EurIPS'25 Table Representation Workshop.
+
+## Abstract
+Building upon the SALT benchmark for relational prediction, we introduce SALT-KG, a benchmark for semantics-aware learning on enterprise 
+tables. SALT-KG extends SALT by linking its multi-table transactional data with a structured Operational Business Knowledge represented in a Metadata Knowledge
+Graph (OBKG) that captures field-level descriptions, relational dependencies, and business object-types. This extension enables evaluation of models that jointly reason over tabular evidence and contextual semantics—an increasingly critical capability for foundation models on structured data. Empirical analysis reveals that while metadata-derived features yield modest improvements in classical prediction metrics, these metadata features consistently highlight gaps in models’ ability to leverage semantics in relational context. By reframing tabular prediction as semantics-conditioned reasoning, SALT-KG establishes a benchmark to advance tabular FMs grounded in declarative knowledge, providing the first empirical step toward semantically linked tables in structured data at enterprise scale.
 
 ## Requirements
 
@@ -38,4 +34,4 @@ For additional support, [ask a question in SAP Community](https://answers.sap.co
 If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
 
 ## License
-Copyright (c) 2025 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+Copyright (c) 2025 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the CC-BY-NC-SA-4.0 except as noted otherwise in the [LICENSE](LICENSE) file.
