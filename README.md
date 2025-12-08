@@ -1,8 +1,8 @@
 # SALT-KG: A Benchmark for Semantics-Aware Learning on Enterprise Tables
 
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://www.python.org/)
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-blue)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![arXiv](https://img.shields.io/badge/arXiv-2501.03413-b31b1b.svg)](https://arxiv.org/abs/2501.03413)
+[![License](https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-green)](licence)
+[![OpenReview](https://img.shields.io/badge/OpenReview-Paper-blue)](https://openreview.net/forum?id=9vVMSvilGX)
 [![REUSE Compliance](https://img.shields.io/badge/REUSE-compliant-brightgreen)](https://reuse.software)
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
@@ -18,7 +18,8 @@ Building upon the SALT benchmark for relational prediction, we introduce SALT-KG
 tables. SALT-KG extends SALT by linking its multi-table transactional data with a structured Operational Business Knowledge represented in a Metadata Knowledge
 Graph (OBKG) that captures field-level descriptions, relational dependencies, and business object-types. This extension enables evaluation of models that jointly reason over tabular evidence and contextual semantics—an increasingly critical capability for foundation models on structured data. Empirical analysis reveals that while metadata-derived features yield modest improvements in classical prediction metrics, these metadata features consistently highlight gaps in models’ ability to leverage semantics in relational context. By reframing tabular prediction as semantics-conditioned reasoning, SALT-KG establishes a benchmark to advance tabular FMs grounded in declarative knowledge, providing the first empirical step toward semantically linked tables in structured data at enterprise scale.
 
-## Requirements
+## Why SALT-KG
+![Motivation for Semantics with Tabular Data](images/motivation.png)
 
 ## Download and Installation
 
