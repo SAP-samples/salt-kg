@@ -21,10 +21,49 @@ Graph (OBKG) that captures field-level descriptions, relational dependencies, an
 ## Why SALT-KG
 ![Motivation for Semantics with Tabular Data](images/motivation.png)
 
-## Download and Installation
+There is growing research on Tabular Foundation Models. 
+TRL models are typically trained and evaluated on benchmarks that represent relational structure but lack explicit semantic grounding or declarative context.
+Knowledge graph (KG) and data integration communities have explored connecting tables to semantic graphs through systems such as JENTAB.
+We can bridge this gap by enriching enterprise relational data with an explicit semantic layer that links tables, fields, and business objects through declarative knowledge in KG
+
+## How was SALT-KG Created
+![Motivation for Semantics with Tabular Data](dataset-creation.png)
+For every relation (Table) in the underlying SALT dataset, we find a matching node in the KG (a View).. We extract triples related to the Views that include:
+Fields: data abstraction nodes with associated fields, labels, associations, data classes, reference fields, and other elements.
+ObjectNodeTypes: further semantic metadata through technical definitions, business object descriptions
+
+## Dataset Overview
+![Motivation for Semantics with Tabular Data](dataset-stats.png)
+The SALT-KG dataset consists of 4 tables from the SALT benchmark, enriched with semantic metadata from an Operational Business Knowledge Graph (OBKG). The dataset includes:    
+- 4 relational tables with transactional data
+- Metadata Knowledge Graph (OBKG) with field-level descriptions, relational dependencies, and business object
+- Train, validation, and test splits for each table
+
+## Requirements
+N/A
 
 ## Known Issues
-<!-- You may simply state "No known issues. -->
+No known issues
+
+## Authors
+- [Isaiah Onando Mulang'](https://www.linkedin.com/in/mulang-onando-phd-31a16ab1/)
+- [Felix Sasaki](https://www.linkedin.com/in/felixsasaki/)
+- [Tassilo Klein](https://tjklein.github.io/)
+- [Jonas Kolk](https://www.linkedin.com/in/jonas-kolk-b8a94b123/)
+- [Nikolay Grechanov](https://www.linkedin.com/in/grechanov/)
+- [Johannes Hoffart](https://www.linkedin.com/in/johanneshoffart/)
+
+## Citations
+If you use this dataset in your research, please cite the following paper:
+
+```
+@inproceedings{mulang2025saltkg,
+  title={SALT-KG: A Benchmark for Semantics-Aware Learning on Enterprise Tables},
+  author={Mulang', Isaiah Onando and Sasaki, Felix and Klein, Tassilo and Kolk, Jonas and Grechanov, Nikolay and Hoffart, Johannes},
+  booktitle={Proceedings of the NeurIPS 2025 Table Representation Learning Workshop},
+  year={2025}
+}
+```
 
 ## How to obtain support
 [Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
