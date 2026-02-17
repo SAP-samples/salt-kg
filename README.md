@@ -60,7 +60,7 @@ If you use this dataset in your research, please cite the following paper:
 @inproceedings{mulang2025saltkg,
   title={SALT-KG: A Benchmark for Semantics-Aware Learning on Enterprise Tables},
   author={Mulang', Isaiah Onando and Sasaki, Felix and Klein, Tassilo and Kolk, Jonas and Grechanov, Nikolay and Hoffart, Johannes},
-  booktitle={Proceedings of the NeurIPS 2025 Table Representation Learning Workshop},
+  booktitle={Proceedings of the AI for Tabular Data workshop at EurIPS 2025},
   year={2025}
 }
 ```
