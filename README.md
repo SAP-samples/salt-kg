@@ -3,7 +3,8 @@
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-green)](licence)
 [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-blue)](https://openreview.net/forum?id=9vVMSvilGX)
-[![REUSE Compliance](https://img.shields.io/badge/REUSE-compliant-brightgreen)](https://reuse.software)
+<!-- [![REUSE Compliance](https://img.shields.io/badge/REUSE-compliant-brightgreen)](https://reuse.software) -->
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/salt-kg)](https://api.reuse.software/info/github.com/SAP-samples/salt-kg)
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
