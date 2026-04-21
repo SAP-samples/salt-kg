@@ -3,7 +3,6 @@
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-green)](licence)
 [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-blue)](https://openreview.net/forum?id=9vVMSvilGX)
-<!-- [![REUSE Compliance](https://img.shields.io/badge/REUSE-compliant-brightgreen)](https://reuse.software) -->
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/salt-kg)](https://api.reuse.software/info/github.com/SAP-samples/salt-kg)
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
@@ -76,3 +75,5 @@ If you wish to contribute code, offer fixes or improvements, please send a pull 
 
 ## License
 Copyright (c) 2025 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the CC-BY-NC-SA-4.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+
+SAP expressly reserves its rights against text and data mining for commercial purposes as described in [TDM_RESERVATION.txt](TDM_RESERVATION.txt).

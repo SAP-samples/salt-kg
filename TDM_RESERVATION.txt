@@ -1,0 +1,3 @@
+Text and data mining reservation (Directive (EU) 2019/790, Article 4)
+
+SAP expressly reserves its rights against text and data mining of its datasets and materials for commercial purposes under Article 4 of Directive (EU) 2019/790 and similar laws. This reservation does not affect use for scientific research purposes under Article 3 of the same Directive.
